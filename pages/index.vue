@@ -8,7 +8,7 @@
     />
     <main
       v-if="city"
-      class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 justify-items-center mx-3 md:mx-10 mt-24"
+      class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 justify-items-center mx-3 md:mx-10 mt-24"
     >
       <card
         v-for="job in city.jobs"
