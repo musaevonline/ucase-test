@@ -11,7 +11,7 @@
       <p class="text-grey-darker text-base">
         {{ company.name }}<br />
         {{ city }}
-        {{ remote ? "Удаленно" : "В оффисе" }}
+        {{ remote ? "Удаленно" : "В офисе" }}
       </p>
     </div>
     <div class="px-6 py-4">
